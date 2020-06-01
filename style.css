@@ -1,0 +1,101 @@
+body
+{
+  background-color: black;
+}
+.container
+{
+  position: relative;
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 120px;
+  background-color: #fff;
+}
+
+.container .content
+{
+  width: 1000px;
+  height: 450px;
+
+}
+.container .content .col
+{
+  background-color: #900;
+}
+.container .content h1
+{
+  letter-spacing: .1em;
+   text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+.container .content a
+{
+  position: relative;
+  margin-left: 40px;
+  color: #fff;
+  padding: 45px;
+  text-decoration-style: solid;
+  font-size: 20px;
+  font-weight: bolder;
+  animation: html 1s linear forwards;
+}
+@keyframes html
+{
+0%
+{
+  opacity: 0;
+  transform: rotateX(180deg);
+}
+100%
+{
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+}
+.container .content a:hover
+{
+  color: black;
+  transition: 0.2s;
+}
+
+.container .content hr
+{
+  margin-top: 20px;
+}
+.container .content .main
+{
+
+  position: absolute;
+  margin-left:300px;
+}
+.container .content .main h1
+{
+  position: fixed;
+  color: #200;
+  letter-spacing: 0em;
+}
+.container .content .main  .wrap
+{
+  position:static;
+  margin-left: -190px;
+  margin-top: 100px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.container .content .main  .wrap .li
+{
+  font-family: fantasy;
+  position: relative;
+  width: 50px;
+  height: 20px;
+  padding-left: 150px;
+  padding-top: 40px;
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+
+}
